@@ -25,7 +25,7 @@ const Moviecard = (curElem) => {
               {synopsis}
             </p>
             <Link href={`/movies/${id}`}>
-              <button className="bg-red-700 rounded-md w-20 sm:w-24 font-bold h-8 m-auto hover:bg-red-800 hover:scale-105">
+              <button className="bg-red-700 text-sm 2xl:text-xl text-gray-300 rounded-md w-20 sm:w-24 font-bold h-8 m-auto hover:bg-red-800 hover:scale-105">
                 Read More
               </button>
             </Link>

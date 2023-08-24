@@ -3,7 +3,7 @@ import React from "react";
 import Moviecard from "../components/Moviecard";
 
 const Movies = async () => {
-  const url = process.env.API_URL;
+  const url = "https://netflix54.p.rapidapi.com/search/?query=stranger&offset=0&limit_titles=50&limit_suggestions=20&lang=en";
   const options = {
     method: "GET",
     headers: {

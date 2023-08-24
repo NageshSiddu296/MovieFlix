@@ -3,10 +3,10 @@ import Image from "next/image";
 
 const about = () => {
   return (
-    <div className="h-full grid place-items-center px-6 py-10 sm:px-16">
-      <Image src="/about1.webp" alt="about" fill />
+    <div className="h-[88vh] grid place-items-center px-6 py-10 sm:px-16">
+      <Image src="/theater123.avif" alt="about" fill className="object-cover brightness-75 contrast-100"/>
 
-      <div className="text-white relative flex flex-col items-center justify-center w-[90%] h-[89vh] lg:flex-row">
+      <div className="text-gray-200 relative flex flex-col items-center justify-center w-[90%]  lg:flex-row">
         <div className="">
           <h1 className="text-2xl md:text-3xl 2xl:text-4xl ">
             Movieflix is a subscription-based streaming service that allows our
@@ -17,8 +17,9 @@ const about = () => {
           </h1>
         </div>
         <div className="">
+          
           <Image
-            className="object-contain lg:w-[1200px]" 
+            className="object-contain w-[200px] lg:w-[1200px] contrast-125" 
             src="/mlogo.png"
             alt="about"
             width={400}
